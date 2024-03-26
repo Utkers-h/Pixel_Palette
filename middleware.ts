@@ -7,7 +7,7 @@ export default authMiddleware({
   // publicRoutes: ['/anyone-can-visit-this-route'],
   // Prevent the specified routes from accessing
   // authentication information:
-  publicRoutes: ["/"],
+  publicRoutes: ["/","/api/webhooks/clerk"],
     
   
 
